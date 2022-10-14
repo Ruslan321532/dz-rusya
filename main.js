@@ -33,10 +33,23 @@ const colorList = [
 {name: yellow = ("Желтый")}
 ];
 
-if (color === red) {
- alert("Стоять")
-} else if (color === green) {
- alert("Идти")
-} else if (color === yellow) {
- alert("Ждать")
+// if (color === red) {
+//  alert("Стоять")
+// } else if (color === green) {
+//  alert("Идти")
+// } else if (color === yellow) {
+//  alert("Ждать")
+// }
+
+
+let a;
+switch(a) {
+    case red:
+    alert("Стоять");
+    break;
+    case green:
+    alert ("Идти");
+    break;
+    case yellow:
+    alert("Ждать");
 }
